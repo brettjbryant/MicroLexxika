@@ -1,0 +1,7 @@
+.modal-dialog {
+  margin: 0 !important;
+}
+
+.modal-header, .modal-content, .modal-footer {
+  border: none !important;
+}

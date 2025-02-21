@@ -1,0 +1,45 @@
+#docContainer {
+  height: 100%;
+}
+
+#docForm {
+  margin-top: 20px;
+  height: calc(100% - 20px);
+}
+
+
+#editButton {
+  display: none;
+}
+
+section:not(.editmode) #editButton {
+  display: block;
+}
+
+section:not(.editmode) .floating-label, section:not(.editmode) #buttonContaner {
+  display: none !important;
+}
+
+section:not(.editmode) input[type="text"], section:not(.editmode) textarea {
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+}
+
+  section:not(.editmode) input[type="text"]#title {
+    font-size: calc(1.425rem + 2.1vw);
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+input[type="text"]#title {
+  max-height: 90px !important;
+  overflow-y: auto;
+}
+
+textarea#body {
+  height: 100%;
+  overflow-y: auto;
+  max-height: 325px;
+  resize: none;
+}

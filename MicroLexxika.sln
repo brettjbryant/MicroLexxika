@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroLexxika.Domain", "Micr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroLexxika.Data", "MicroLexxika.Data\MicroLexxika.Data.csproj", "{90005D24-F75B-4ED6-8DA1-9E04ECFD61D2}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "MicroLexxika.Web", "MicroLexxika.Web\MicroLexxika.Web.esproj", "{48F9A10A-79F5-4C5B-836A-D1970643AB08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,12 @@ Global
 		{90005D24-F75B-4ED6-8DA1-9E04ECFD61D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90005D24-F75B-4ED6-8DA1-9E04ECFD61D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90005D24-F75B-4ED6-8DA1-9E04ECFD61D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48F9A10A-79F5-4C5B-836A-D1970643AB08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F9A10A-79F5-4C5B-836A-D1970643AB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F9A10A-79F5-4C5B-836A-D1970643AB08}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{48F9A10A-79F5-4C5B-836A-D1970643AB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F9A10A-79F5-4C5B-836A-D1970643AB08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48F9A10A-79F5-4C5B-836A-D1970643AB08}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

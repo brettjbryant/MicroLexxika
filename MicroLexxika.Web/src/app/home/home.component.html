@@ -1,0 +1,21 @@
+<section *ngIf="!loggedIn">
+  <div class="row">
+    <div class="col-12">
+      <h1>Insurance Translation</h1>
+      <h2>Language services for the global insurance industry</h2>
+      <p>Lexxika is intentionally non-generalist. We deliver better and faster by sticking to our core strengths and making sure that every single employee and partner is aligned to our insurance translation specialisation.</p>
+    </div>
+  </div>
+</section>
+<section *ngIf="loggedIn">
+  <div class="meta-button-right">
+    <a id="editButton" class="btn btn-link" routerLink="doc/new">New</a>
+  </div>
+  <div id="docList" class="row">
+    <div class="col-12">
+      <div class="list-group" *ngFor="let doc of docs; index as i">
+        <a class="list-group-item list-group-item-action mb-2" [routerLink]="['/doc', doc.id]">{{ doc.title }}</a>
+      </div>
+    </div>
+  </div>
+</section>
