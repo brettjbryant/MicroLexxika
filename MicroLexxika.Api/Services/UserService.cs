@@ -39,7 +39,7 @@ namespace MicroLexxika.Api.Services
             var user = new User
             {
                 Username = userRequest.Username,
-                Password = userRequest.Password,
+                Password = _hashingHelper.HashPassword(userRequest.Password),
                 Role = (Role)userRequest.Role
             };
 
