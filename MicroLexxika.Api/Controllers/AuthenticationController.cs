@@ -36,6 +36,11 @@ namespace MicroLexxika.Api.Controllers
         [Route("login")]
         public IActionResult Login(LoginRequest request)
         {
+            if (request == null)
+            {
+                return BadRequest();
+            }
+
             var users = _userService.GetAll();
             var user = users.FirstOrDefault(x => x.Username == request.Username);
 
